@@ -17,6 +17,13 @@ You will have to :
 
 Try and do this without changing the production code too much.
 
+Once the run of the game is deterministic, you can write a test.
+
+It should compare the actual output with an expected output (stored in a text file).
+
+In case a bug is introduced in the pcoduction code, the test should fail, showing
+the lines that have changed.
+
 ## Step 2
 
 Measure coverage and try to improve it.
